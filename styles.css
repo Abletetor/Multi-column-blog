@@ -5,12 +5,13 @@
 }
 
 body {
-      font-family: Roboto, Ubuntu,'Helvetica Neue';
+      font-family: Roboto, Ubuntu, 'Helvetica Neue';
       color: #ddd;
       background-color: #ddd;
 }
 
-h3, h2 {
+h3,
+h2 {
       margin: 10px 0;
       padding: 5px 0;
       color: #2c9aa0;
@@ -31,6 +32,7 @@ h3, h2 {
       padding: 20px;
       background-color: #222831;
       margin-bottom: 20px;
+      border-radius: 5px;
 }
 
 .main-content h2 {
@@ -70,6 +72,7 @@ p {
       max-width: 25%;
       padding: 20px;
       background-color: #31363F;
+      border-radius: 5px;
 }
 
 .sidebar .recent-links {
@@ -80,20 +83,23 @@ p {
       list-style-type: none;
 }
 
-.sidebar ul li a, .sidebar ul li a:visited {
+.sidebar ul li a,
+.sidebar ul li a:visited {
       color: #ddd;
 }
+
 .sidebar ul li a:hover {
       color: #bd2121;
 }
- 
+
 
 @media (max-width: 768px) {
       .container {
             flex-direction: column;
       }
 
-      .main-content, .sidebar {
+      .main-content,
+      .sidebar {
             max-width: 100%;
       }
 }
